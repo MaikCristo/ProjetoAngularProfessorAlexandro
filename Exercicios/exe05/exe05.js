@@ -11,4 +11,6 @@ function contadorOcorrencia(list, element) {
   const lista = [1, 2, 3, 4, 2, 3, 2];
   const element = 4;
   const numOcorrencias = contadorOcorrencia(lista, element);
+  let resp = document.getElementById("resp");
+  resp.innerHTML="O elemento " + element + " ocorre " + numOcorrencias + " vezes na lista ";
   console.log(`O elemento ${element} ocorre ${numOcorrencias} vezes na lista.`);

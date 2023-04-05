@@ -1,10 +1,8 @@
 function calcular(){
 
-
     let numero = document.getElementById("numero").value;
     let resultado = document.getElementById("resultado");
     let total = document.getElementById("total");
-
 
     total = numero % 2;
    
